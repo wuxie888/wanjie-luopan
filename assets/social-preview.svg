@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">万界罗盘 GitHub Social Preview</title>
+  <desc id="desc">开源项目发现与研究系统</desc>
+  <image href="social-preview-background.png" x="0" y="0" width="1280" height="640" preserveAspectRatio="xMidYMid slice"/>
+  <rect x="0" y="0" width="735" height="640" fill="#07182C" opacity=".38"/>
+  <g transform="translate(86 86)">
+    <circle cx="34" cy="34" r="29" fill="none" stroke="#F0E1BA" stroke-width="4"/>
+    <path d="M34 4 40 28 64 34 40 40 34 64 28 40 4 34 28 28Z" fill="#F0E1BA"/>
+    <circle cx="34" cy="34" r="6" fill="#C85C3D"/>
+    <path d="M10 55c10 9 22 13 36 11 9-1 17-5 23-11" fill="none" stroke="#C85C3D" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="86" y="255" fill="#F2E5C4" font-family="PingFang SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="88" font-weight="700" letter-spacing="8">万界罗盘</text>
+  <text x="91" y="318" fill="#D9B06B" font-family="PingFang SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="27" font-weight="600" letter-spacing="5">开源项目发现与研究系统</text>
+  <path d="M91 363h82" stroke="#C85C3D" stroke-width="7" stroke-linecap="round"/>
+  <text x="91" y="424" fill="#F2E5C4" font-family="PingFang SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="30" font-weight="500">为每个想法找到方向</text>
+  <text x="91" y="471" fill="#B9C2CE" font-family="PingFang SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="25" font-weight="400">在开源万界中，留下自己的星图</text>
+</svg>

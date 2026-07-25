@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">万界罗盘</title>
+  <desc id="desc">万界罗盘品牌组合标志</desc>
+  <g transform="translate(36 30) scale(.46875)">
+    <circle cx="256" cy="256" r="188" fill="none" stroke="#0B1C31" stroke-width="22"/>
+    <g stroke="#0B1C31" stroke-width="22" stroke-linecap="round">
+      <path d="M256 34v50M478 256h-50M256 478v-50M34 256h50"/>
+    </g>
+    <path d="M143 375c39 35 91 56 148 52 62-4 115-38 146-86M127 184c28-50 81-87 143-97" fill="none" stroke="#C55A3D" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="127" cy="184" r="14" fill="#C55A3D"/>
+    <circle cx="437" cy="341" r="14" fill="#C55A3D"/>
+    <path d="M256 104 294 218 408 256 294 294 256 408 218 294 104 256 218 218Z" fill="#0B1C31"/>
+    <path d="M256 155 277 235 357 256 277 277 256 357 235 277 155 256 235 235Z" fill="#F0E1BA"/>
+    <circle cx="256" cy="256" r="31" fill="#C55A3D"/>
+    <circle cx="256" cy="256" r="13" fill="#0B1C31"/>
+  </g>
+  <text x="320" y="139" fill="#0B1C31" font-family="PingFang SC, Noto Sans CJK SC, Source Han Sans SC, sans-serif" font-size="92" font-weight="700" letter-spacing="8">万界罗盘</text>
+  <text x="326" y="205" fill="#536176" font-family="Avenir Next, Inter, sans-serif" font-size="25" font-weight="600" letter-spacing="8">WANJIE LUOPAN</text>
+  <path d="M326 234h164" stroke="#C55A3D" stroke-width="8" stroke-linecap="round"/>
+</svg>
