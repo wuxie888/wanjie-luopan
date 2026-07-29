@@ -25,7 +25,7 @@ python3 -m unittest discover -s wanjie-luopan/scripts -p 'test_*.py' -v
 
 ## 全局副本回归
 
-在 `/Users/myfuture/.codex/skills/wanjie-luopan` 重复执行 4 项脚本测试，全部通过。
+在当次测试用户的 `~/.codex/skills/wanjie-luopan` 全局副本中重复执行 4 项脚本测试，全部通过。
 
 ## 独立前向测试
 
@@ -52,3 +52,24 @@ python3 -m unittest discover -s wanjie-luopan/scripts -p 'test_*.py' -v
 Skill MVP 满足 AC-01 至 AC-11，可以作为全局个人 Skill 使用。当前证据只证明工作流和脚本可用，不代表未来所有搜索主题都能稳定达到相同质量；继续用真实任务迭代。
 
 2026-07-25 品牌迁移后，源码与全局副本再次通过结构校验和各 4 项脚本回归；旧机器标识无残留。巡天、星历、藏卷和舆图仍属于产品规划，不计入当前验收范围。
+
+## 2026-07-28 仓库装修回归
+
+本轮在不修改 Skill 核心规则的前提下，重构 README、上手与排错文档、真实样例、品牌视觉和 CI。
+
+结果：
+
+- 点睛仓库审计：0 errors、0 warnings
+- `quick_validate.py`：`Skill is valid!`
+- 评分器回归：4 项通过
+- 临时干净安装副本：结构校验和 4 项回归通过
+- README 本地链接和图片链接：全部可解析
+- SVG：`xmllint` 校验通过
+- YAML：Skill 元数据与 GitHub Actions workflow 可解析
+- README 桌面首屏：1280×900 渲染通过
+- README 窄屏首屏：390×844，无水平页面溢出
+- 新 Social Preview：1280×640，约 88 KB
+- 新 Hero：1440×720，约 134 KB
+- 根目录与 Skill 包内的 Logo、图标副本一致
+
+本轮没有推送，没有创建 Tag / GitHub Release，没有上传新的 Social Preview，也没有修改 GitHub Settings。公开仓库仍显示上一版远端内容。

@@ -1,0 +1,34 @@
+name: Validate Skill
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check Skill package
+        run: |
+          test -f wanjie-luopan/SKILL.md
+          test -f wanjie-luopan/agents/openai.yaml
+          test -f wanjie-luopan/references/discovery-strategy.md
+          test -f wanjie-luopan/references/evidence-levels.md
+          test -f wanjie-luopan/references/license-boundary.md
+          test -f wanjie-luopan/references/report-format.md
+          test -f wanjie-luopan/references/screening-rubric.md
+
+      - name: Run regression tests
+        env:
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: python3 -m unittest discover -s wanjie-luopan/scripts -p "test_*.py" -v

@@ -1,16 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
   <title id="title">万界罗盘标志</title>
-  <desc id="desc">由罗盘、星点与探索路径组成的品牌标志</desc>
+  <desc id="desc">一张折叠舆图上连接四个证据节点的研究路线</desc>
   <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="256" cy="256" r="188" stroke="#0B1C31" stroke-width="22"/>
-    <path d="M256 34v50M478 256h-50M256 478v-50M34 256h50" stroke="#0B1C31" stroke-width="22"/>
-    <path d="M143 375c39 35 91 56 148 52 62-4 115-38 146-86" stroke="#C55A3D" stroke-width="15"/>
-    <path d="M127 184c28-50 81-87 143-97" stroke="#C55A3D" stroke-width="15"/>
-    <circle cx="127" cy="184" r="14" fill="#C55A3D" stroke="none"/>
-    <circle cx="437" cy="341" r="14" fill="#C55A3D" stroke="none"/>
+    <path d="M72 154 198 108l116 42 126-46v254l-126 46-116-42-126 46Z" stroke="#0B1C31" stroke-width="24"/>
+    <path d="M198 108v254M314 150v254" stroke="#0B1C31" stroke-width="18" opacity=".72"/>
+    <path d="M108 334c48-16 70-92 120-83 45 8 42 82 94 73 39-7 48-75 86-111" stroke="#D45D3F" stroke-width="20"/>
+    <circle cx="108" cy="334" r="17" fill="#F4F0E6" stroke="#D45D3F" stroke-width="14"/>
+    <circle cx="228" cy="251" r="17" fill="#F4F0E6" stroke="#D45D3F" stroke-width="14"/>
+    <circle cx="322" cy="324" r="17" fill="#F4F0E6" stroke="#D45D3F" stroke-width="14"/>
+    <circle cx="408" cy="213" r="24" fill="#D45D3F" stroke="#F4F0E6" stroke-width="10"/>
+    <path d="m399 213 8 8 14-18" stroke="#0B1C31" stroke-width="8"/>
   </g>
-  <path d="M256 104 294 218 408 256 294 294 256 408 218 294 104 256 218 218Z" fill="#0B1C31"/>
-  <path d="M256 155 277 235 357 256 277 277 256 357 235 277 155 256 235 235Z" fill="#F0E1BA"/>
-  <circle cx="256" cy="256" r="31" fill="#C55A3D"/>
-  <circle cx="256" cy="256" r="13" fill="#0B1C31"/>
 </svg>
