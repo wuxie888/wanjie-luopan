@@ -6,6 +6,24 @@
 </p>
 
 <p align="center">
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/wuxie888/wanjie-luopan?style=flat-square&amp;label=license&amp;color=F26A4B" alt="License MIT">
+  </a>
+  <a href="https://github.com/wuxie888/wanjie-luopan/releases/tag/v0.1.0">
+    <img src="https://img.shields.io/github/v/release/wuxie888/wanjie-luopan?style=flat-square&amp;label=release&amp;color=1F6FEB" alt="Release v0.1.0">
+  </a>
+  <a href="https://github.com/wuxie888/wanjie-luopan/actions/workflows/validate.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/wuxie888/wanjie-luopan/validate.yml?branch=main&amp;style=flat-square&amp;label=build" alt="Build status">
+  </a>
+  <a href="wanjie-luopan/SKILL.md">
+    <img src="https://img.shields.io/badge/Codex-Skill-0B1C31?style=flat-square" alt="Codex Skill">
+  </a>
+  <a href="#工作方式">
+    <img src="https://img.shields.io/badge/default-read--only-2E7D5A?style=flat-square" alt="Default read-only">
+  </a>
+</p>
+
+<p align="center">
   <a href="#60-秒开始"><strong>开始使用</strong></a>
   ·
   <a href="examples/first-success.md">真实样例</a>
@@ -13,10 +31,6 @@
   <a href="#证据不是装饰">证据模型</a>
   ·
   <a href="https://github.com/wuxie888/wanjie-luopan/releases/tag/v0.1.0">v0.1.0</a>
-</p>
-
-<p align="center">
-  <sub>一个面向 Codex 的开源项目发现与研究 Skill</sub>
 </p>
 
 ## 60 秒开始
