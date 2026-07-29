@@ -1,8 +1,10 @@
 # Changelog
 
-本项目在首个版本化 Release 前使用 `Unreleased` 记录变化。
+本项目使用语义化版本记录公开发布。
 
 ## Unreleased
+
+## 0.1.0 - 2026-07-29
 
 ### Added
 
@@ -16,7 +18,3 @@
 
 - README 从内部产品定义改为结果、证据、安装和真实边界优先
 - 品牌视觉从复古占星罗盘改为现代舆图、证据节点与研究路线
-
-### Not released
-
-- 当前变化只代表本地 `Unreleased` 工作，不代表远端、Tag 或 GitHub Release 已发布

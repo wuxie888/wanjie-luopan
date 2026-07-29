@@ -73,3 +73,14 @@ Skill MVP 满足 AC-01 至 AC-11，可以作为全局个人 Skill 使用。当�
 - 根目录与 Skill 包内的 Logo、图标副本一致
 
 本轮没有推送，没有创建 Tag / GitHub Release，没有上传新的 Social Preview，也没有修改 GitHub Settings。公开仓库仍显示上一版远端内容。
+
+## 2026-07-29 公开发布候选回归
+
+- 装修提交已推送到公开仓库 `main`
+- GitHub Actions `Validate Skill` 在公开提交上运行成功
+- 从公开仓库全新浅克隆 `main`，没有复用本地工作树
+- 按上手文档将 Skill 安装到新的临时目录
+- 公开源码包和临时安装副本 `diff -qr` 无差异
+- 临时安装副本通过 `quick_validate.py`
+- 公开克隆中的评分器 4 项回归测试全部通过
+- 既有独立前向测试仍作为第一次成功的功能证据；本次没有在已打开任务中冒充 Skill 热刷新

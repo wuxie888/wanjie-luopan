@@ -112,7 +112,7 @@ rsync -a --delete wanjie-luopan/wanjie-luopan/ "$HOME/.codex/skills/wanjie-luopa
 - **舆图**：持久化的项目关系和知识底座
 - 独立 App、网站、账号、云端数据服务或自动部署
 
-仓库当前提供源码快照，尚未创建版本化 GitHub Release。
+首个版本化发布为 [`v0.1.0`](https://github.com/wuxie888/wanjie-luopan/releases/tag/v0.1.0)。
 
 ## 安装、更新与排错
 
@@ -149,4 +149,4 @@ assets/                    # 品牌、Hero 与 Social Preview
 
 本项目采用 [MIT License](LICENSE)。评分脚本使用 Python 标准库；品牌矢量资产为本仓库原创并随仓库按 MIT 许可发布。
 
-产品定义与语言体系见 [项目总览](product-docs/00_项目总览.md) 和 [品牌语言系统](product-docs/05_品牌语言系统.md)。版本前变化记录在 [CHANGELOG](CHANGELOG.md)。
+产品定义与语言体系见 [项目总览](product-docs/00_项目总览.md) 和 [品牌语言系统](product-docs/05_品牌语言系统.md)。版本变化记录在 [CHANGELOG](CHANGELOG.md)。
