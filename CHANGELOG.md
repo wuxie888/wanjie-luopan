@@ -4,6 +4,11 @@
 
 ## Unreleased
 
+### Changed
+
+- README 首屏改为单一静态封面，移除重复 Logo 区和候选 Dashboard 式画面
+- Hero 从 1440×720 收敛为 1440×560，在 GitHub 正文宽度中优先保证品牌、价值和真实边界可读
+
 ## 0.1.0 - 2026-07-29
 
 ### Added

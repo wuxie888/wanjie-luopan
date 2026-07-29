@@ -1,24 +1,24 @@
 <p align="center">
-  <img src="assets/logo-lockup.svg" alt="万界罗盘" width="520">
-</p>
-
-<p align="center"><strong>给一个方向，得到一份有证据的开源项目路引</strong></p>
-
-<p align="center">
-  一个面向 Codex 的开源项目发现与研究 Skill。核对真实仓库、源码、维护与许可证，告诉你哪些值得先看，以及证据到哪一层。
+  <img src="assets/hero.png" alt="万界罗盘：给一个方向，得到一份包含真实仓库、证据等级、风险边界和下一步的开源项目路引" width="100%">
 </p>
 
 <p align="center">
-  <sub>当前可用：路引 · 基础星图 · 开卷 · 按需最小运行验证</sub>
+  <a href="#60-秒开始"><strong>开始使用</strong></a>
+  ·
+  <a href="examples/first-success.md">真实样例</a>
+  ·
+  <a href="#证据不是装饰">证据模型</a>
+  ·
+  <a href="https://github.com/wuxie888/wanjie-luopan/releases/tag/v0.1.0">v0.1.0</a>
 </p>
 
 <p align="center">
-  <img src="assets/hero.png" alt="万界罗盘把一个自然语言方向转成经过真实仓库核验、证据分层和风险标注的项目路引" width="100%">
+  <sub>一个面向 Codex 的开源项目发现与研究 Skill</sub>
 </p>
 
 ## 60 秒开始
 
-### 1. 安装
+### 安装
 
 ```bash
 git clone https://github.com/wuxie888/wanjie-luopan.git
@@ -28,24 +28,14 @@ rsync -a --delete wanjie-luopan/wanjie-luopan/ "$HOME/.codex/skills/wanjie-luopa
 
 安装后开启一个新的 Codex 任务，让本地 Skill 列表重新加载。
 
-### 2. 给出一个真实方向
+### 第一次调用
 
 ```text
 使用 $wanjie-luopan 帮我寻找适合 macOS 本地运行、用于研究语音转文字的开源项目。
 只做快速发现，不安装运行。
 ```
 
-### 3. 得到可以继续行动的路引
-
-万界罗盘默认返回 3–8 个分层候选，每个候选包含：
-
-- 准确的原始仓库链接和真实项目形态
-- 为什么值得继续看，以及最值得先看的入口
-- E0–E3 证据等级和本次核验边界
-- 许可证、依赖、维护和适用性风险
-- 一个自然的下一步，而不是自动扩大任务
-
-查看一份基于 GitHub 当前数据整理的 [真实首次成功样例](examples/first-success.md)。
+你会得到 3–8 个分层候选，以及准确链接、推荐理由、E0–E3 证据等级、主要风险和自然下一步。查看 [真实首次成功样例](examples/first-success.md)。
 
 ## 它解决什么
 

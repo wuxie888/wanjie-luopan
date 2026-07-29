@@ -1,60 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="720" viewBox="0 0 1440 720" role="img" aria-labelledby="title desc">
-  <title id="title">万界罗盘工作流</title>
-  <desc id="desc">给一个方向，经过真实仓库和证据分层，得到一份有风险边界的开源项目路引</desc>
-  <rect width="1440" height="720" rx="32" fill="#F4F0E6"/>
-  <g stroke="#D8D1C3" stroke-width="1" opacity=".62">
-    <path d="M80 0v720M240 0v720M400 0v720M560 0v720M720 0v720M880 0v720M1040 0v720M1200 0v720M1360 0v720"/>
-    <path d="M0 120h1440M0 240h1440M0 360h1440M0 480h1440M0 600h1440"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="560" viewBox="0 0 1440 560" role="img" aria-labelledby="title desc">
+  <title id="title">万界罗盘</title>
+  <desc id="desc">给一个方向，得到一份包含真实仓库、证据等级、风险边界和下一步的开源项目路引</desc>
+
+  <defs>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(170 72) rotate(31) scale(830 570)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17324B"/>
+      <stop offset=".55" stop-color="#0B1B2B"/>
+      <stop offset="1" stop-color="#07131F"/>
+    </radialGradient>
+    <linearGradient id="panel" x1="920" y1="146" x2="1368" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10263A"/>
+      <stop offset="1" stop-color="#0B1B2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1440" height="560" rx="28" fill="url(#glow)"/>
+  <rect x=".75" y=".75" width="1438.5" height="558.5" rx="27.25" fill="none" stroke="#274158" stroke-width="1.5"/>
+
+  <g fill="none" stroke="#3A5870" stroke-width="1.4" opacity=".28">
+    <path d="M-40 474C156 378 252 500 431 411c143-72 240-22 351-92 121-77 155-209 316-222 123-10 211 48 390-32"/>
+    <path d="M-18 514c203-92 328 40 506-58 141-77 222-25 351-91 138-70 170-178 303-203 117-22 213 24 340-20"/>
   </g>
-  <g transform="translate(74 58)">
-    <path d="M0 25 34 12l31 12 34-13v62L65 86 34 74 0 87Z" fill="none" stroke="#0B1C31" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M34 12v62M65 24v62" stroke="#0B1C31" stroke-width="4" opacity=".65"/>
-    <path d="M10 66c13-4 18-23 31-20 12 2 11 21 25 19 10-2 13-18 23-28" fill="none" stroke="#D45D3F" stroke-width="5" stroke-linecap="round"/>
-    <circle cx="89" cy="37" r="7" fill="#D45D3F"/>
+  <g fill="#F26A4B">
+    <circle cx="431" cy="411" r="5"/>
+    <circle cx="782" cy="319" r="5"/>
+    <circle cx="1098" cy="97" r="5"/>
   </g>
-  <text x="194" y="102" fill="#0B1C31" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="700" letter-spacing="3">万界罗盘</text>
-  <text x="194" y="138" fill="#607086" font-family="Avenir Next, Inter, sans-serif" font-size="15" font-weight="600" letter-spacing="5">WANJIE LUOPAN</text>
-  <text x="74" y="242" fill="#0B1C31" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="750">给一个方向</text>
-  <text x="74" y="312" fill="#0B1C31" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="56" font-weight="750">得到一份有证据的项目路引</text>
-  <text x="78" y="366" fill="#607086" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="23">真实仓库 · 证据分层 · 风险边界 · 下一步</text>
-  <rect x="74" y="414" width="604" height="82" rx="18" fill="#FFFFFF" stroke="#D8D1C3" stroke-width="2"/>
-  <circle cx="112" cy="455" r="13" fill="none" stroke="#D45D3F" stroke-width="4"/>
-  <path d="m121 464 12 12" stroke="#D45D3F" stroke-width="4" stroke-linecap="round"/>
-  <text x="154" y="464" fill="#0B1C31" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22">适合 macOS 本地运行的语音转文字项目</text>
+
+  <g transform="translate(70 48) scale(.22)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72 154 198 108l116 42 126-46v254l-126 46-116-42-126 46Z" stroke="#F7F2E8" stroke-width="24"/>
+    <path d="M198 108v254M314 150v254" stroke="#F7F2E8" stroke-width="18" opacity=".55"/>
+    <path d="M108 334c48-16 70-92 120-83 45 8 42 82 94 73 39-7 48-75 86-111" stroke="#F26A4B" stroke-width="20"/>
+    <circle cx="108" cy="334" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="228" cy="251" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="322" cy="324" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="408" cy="213" r="24" fill="#F26A4B" stroke="#F7F2E8" stroke-width="10"/>
+    <path d="m399 213 8 8 14-18" stroke="#07131F" stroke-width="8"/>
+  </g>
+
+  <text x="184" y="88" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="32" font-weight="650" letter-spacing="2">万界罗盘</text>
+  <text x="186" y="117" fill="#8FA0B2" font-family="Avenir Next, Inter, sans-serif" font-size="12" font-weight="600" letter-spacing="4.5">WANJIE LUOPAN</text>
+
+  <rect x="1160" y="54" width="210" height="38" rx="19" fill="#10263A" stroke="#2C465D"/>
+  <circle cx="1184" cy="73" r="5" fill="#F26A4B"/>
+  <text x="1200" y="79" fill="#C6D0DA" font-family="Avenir Next, Inter, sans-serif" font-size="14" font-weight="600">CODEX SKILL · v0.1.0</text>
+
+  <text x="72" y="218" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="650" letter-spacing="-1">给一个方向</text>
+  <text x="72" y="292" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="650" letter-spacing="-1">得到一份有证据的项目路引</text>
+  <text x="76" y="342" fill="#A7B4C1" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21">真实仓库 · 证据等级 · 风险边界 · 下一步</text>
+
+  <rect x="72" y="386" width="742" height="96" rx="14" fill="#0D2235" stroke="#2A4359" stroke-width="1.5"/>
+  <circle cx="107" cy="426" r="12" fill="none" stroke="#F26A4B" stroke-width="3.5"/>
+  <path d="m116 435 11 11" stroke="#F26A4B" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="151" y="434" fill="#E5E9ED" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="20">“帮我找适合 macOS 本地运行的语音转文字项目”</text>
+  <text x="151" y="462" fill="#8799AA" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16">默认只读发现 · 不克隆 · 不安装 · 不运行陌生代码</text>
+
+  <rect x="906" y="134" width="464" height="370" rx="20" fill="url(#panel)" stroke="#2A4359" stroke-width="1.5"/>
+  <text x="948" y="186" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="650">一份路引，回答四件事</text>
+  <path d="M948 211h380" stroke="#2A4359" stroke-width="1.5"/>
+
   <g font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
-    <text x="78" y="568" fill="#607086" font-size="17" font-weight="600">方向</text>
-    <text x="242" y="568" fill="#607086" font-size="17" font-weight="600">真实仓库</text>
-    <text x="430" y="568" fill="#607086" font-size="17" font-weight="600">证据分层</text>
-    <text x="608" y="568" fill="#607086" font-size="17" font-weight="600">项目路引</text>
+    <text x="948" y="260" fill="#F26A4B" font-size="16" font-weight="700">01</text>
+    <text x="996" y="260" fill="#E8ECEF" font-size="20" font-weight="600">现在先看什么</text>
+
+    <text x="948" y="325" fill="#F26A4B" font-size="16" font-weight="700">02</text>
+    <text x="996" y="325" fill="#E8ECEF" font-size="20" font-weight="600">证据到了哪一层</text>
+
+    <text x="948" y="390" fill="#F26A4B" font-size="16" font-weight="700">03</text>
+    <text x="996" y="390" fill="#E8ECEF" font-size="20" font-weight="600">还有哪些风险没验证</text>
+
+    <text x="948" y="455" fill="#F26A4B" font-size="16" font-weight="700">04</text>
+    <text x="996" y="455" fill="#E8ECEF" font-size="20" font-weight="600">下一步该开卷还是实测</text>
   </g>
-  <path d="M100 606h526" stroke="#0B1C31" stroke-width="5" stroke-linecap="round"/>
-  <g fill="#F4F0E6" stroke="#D45D3F" stroke-width="6">
-    <circle cx="100" cy="606" r="15"/>
-    <circle cx="280" cy="606" r="15"/>
-    <circle cx="464" cy="606" r="15"/>
-  </g>
-  <circle cx="626" cy="606" r="19" fill="#D45D3F"/>
-  <path d="m618 606 7 7 13-17" fill="none" stroke="#F4F0E6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <rect x="760" y="66" width="606" height="588" rx="28" fill="#0B1C31"/>
-  <text x="812" y="126" fill="#F4F0E6" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="27" font-weight="700">路引 / 2026.07.28</text>
-  <text x="812" y="163" fill="#9CA9B8" font-family="Avenir Next, Inter, sans-serif" font-size="15" font-weight="600" letter-spacing="3">E1 · REPOSITORY SURFACE</text>
-  <path d="M812 196h502" stroke="#33475F" stroke-width="2"/>
-  <g font-family="Avenir Next, Inter, PingFang SC, sans-serif">
-    <text x="812" y="252" fill="#D45D3F" font-size="20" font-weight="700">01</text>
-    <text x="862" y="252" fill="#F4F0E6" font-size="23" font-weight="650">argmax-oss-swift</text>
-    <text x="1230" y="252" fill="#9CA9B8" font-size="17">Swift</text>
-    <text x="862" y="286" fill="#9CA9B8" font-size="17">Apple Silicon 本地语音 AI SDK</text>
-    <path d="M812 322h502" stroke="#33475F" stroke-width="2"/>
-    <text x="812" y="378" fill="#D45D3F" font-size="20" font-weight="700">02</text>
-    <text x="862" y="378" fill="#F4F0E6" font-size="23" font-weight="650">FluidAudio</text>
-    <text x="1230" y="378" fill="#9CA9B8" font-size="17">Swift</text>
-    <text x="862" y="412" fill="#9CA9B8" font-size="17">Core ML 音频模型与开发管线</text>
-    <path d="M812 448h502" stroke="#33475F" stroke-width="2"/>
-    <text x="812" y="504" fill="#D45D3F" font-size="20" font-weight="700">03</text>
-    <text x="862" y="504" fill="#F4F0E6" font-size="23" font-weight="650">Buzz</text>
-    <text x="1230" y="504" fill="#9CA9B8" font-size="17">App</text>
-    <text x="862" y="538" fill="#9CA9B8" font-size="17">可直接体验的离线桌面转录应用</text>
-  </g>
-  <rect x="812" y="580" width="502" height="42" rx="12" fill="#132A43"/>
-  <text x="836" y="608" fill="#C3CDD7" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16">默认不克隆 · 不安装 · 不运行陌生代码</text>
 </svg>
