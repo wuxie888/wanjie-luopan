@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="assets/hero.png" alt="万界罗盘：给一个方向，得到一份包含真实仓库、证据等级、风险边界和下一步的开源项目路引" width="100%">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/hero-mobile.png">
+    <img src="assets/hero.png" alt="万界罗盘：给一个方向，得到一份包含真实仓库、证据等级、风险边界和下一步的开源项目路引" width="100%">
+  </picture>
 </p>
 
 <p align="center">

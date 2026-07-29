@@ -7,7 +7,8 @@
 - `logo-mark.svg`：透明背景主标志
 - `logo-lockup.svg`：横向品牌组合
 - `icon.svg` / `icon.png`：Codex Skill 方形图标
-- `hero.svg` / `hero.png`：README 静态 Hero，1440×560
+- `hero.svg` / `hero.png`：README 桌面静态 Hero，1440×560
+- `hero-mobile.svg` / `hero-mobile.png`：README 窄屏静态 Hero，800×920
 - `social-preview.svg` / `social-preview.png`：GitHub Social Preview
 
 ## 视觉规则

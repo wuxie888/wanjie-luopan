@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="920" viewBox="0 0 800 920" role="img" aria-labelledby="title desc">
+  <title id="title">万界罗盘</title>
+  <desc id="desc">万界罗盘移动端封面，展示真实请求和一份项目路引回答的四个问题</desc>
+
+  <defs>
+    <radialGradient id="mobile-glow" cx="0" cy="0" r="1" gradientTransform="translate(92 58) rotate(45) scale(760 720)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17324B"/>
+      <stop offset=".58" stop-color="#0B1B2B"/>
+      <stop offset="1" stop-color="#07131F"/>
+    </radialGradient>
+    <linearGradient id="mobile-panel" x1="48" y1="546" x2="752" y2="872" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10263A"/>
+      <stop offset="1" stop-color="#0B1B2A"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="920" rx="28" fill="url(#mobile-glow)"/>
+  <rect x=".75" y=".75" width="798.5" height="918.5" rx="27.25" fill="none" stroke="#274158" stroke-width="1.5"/>
+
+  <g fill="none" stroke="#3A5870" stroke-width="1.4" opacity=".24">
+    <path d="M-70 493c149-73 230 30 359-46 104-61 160-31 247-88 97-63 111-159 238-185 60-12 103-2 150-16"/>
+    <path d="M-34 530c146-65 241 35 367-38 93-53 157-24 246-74 96-54 128-139 224-165"/>
+  </g>
+  <g fill="#F26A4B">
+    <circle cx="289" cy="447" r="5"/>
+    <circle cx="536" cy="359" r="5"/>
+  </g>
+
+  <g transform="translate(40 34) scale(.2)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M72 154 198 108l116 42 126-46v254l-126 46-116-42-126 46Z" stroke="#F7F2E8" stroke-width="24"/>
+    <path d="M198 108v254M314 150v254" stroke="#F7F2E8" stroke-width="18" opacity=".55"/>
+    <path d="M108 334c48-16 70-92 120-83 45 8 42 82 94 73 39-7 48-75 86-111" stroke="#F26A4B" stroke-width="20"/>
+    <circle cx="108" cy="334" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="228" cy="251" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="322" cy="324" r="17" fill="#0C1C2B" stroke="#F26A4B" stroke-width="14"/>
+    <circle cx="408" cy="213" r="24" fill="#F26A4B" stroke="#F7F2E8" stroke-width="10"/>
+    <path d="m399 213 8 8 14-18" stroke="#07131F" stroke-width="8"/>
+  </g>
+
+  <text x="142" y="78" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="31" font-weight="650" letter-spacing="2">万界罗盘</text>
+  <text x="144" y="108" fill="#8FA0B2" font-family="Avenir Next, Inter, sans-serif" font-size="12" font-weight="600" letter-spacing="4.5">WANJIE LUOPAN</text>
+  <rect x="564" y="48" width="188" height="38" rx="19" fill="#10263A" stroke="#2C465D"/>
+  <circle cx="588" cy="67" r="5" fill="#F26A4B"/>
+  <text x="604" y="73" fill="#C6D0DA" font-family="Avenir Next, Inter, sans-serif" font-size="13" font-weight="600">CODEX SKILL · v0.1.0</text>
+
+  <text x="48" y="210" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="52" font-weight="650" letter-spacing="-1">给一个方向</text>
+  <text x="48" y="276" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="48" font-weight="650" letter-spacing="-1">得到一份有证据的项目路引</text>
+  <text x="52" y="325" fill="#A7B4C1" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="21">真实仓库 · 证据等级 · 风险边界 · 下一步</text>
+
+  <rect x="48" y="374" width="704" height="126" rx="16" fill="#0D2235" stroke="#2A4359" stroke-width="1.5"/>
+  <circle cx="88" cy="418" r="12" fill="none" stroke="#F26A4B" stroke-width="3.5"/>
+  <path d="m97 427 11 11" stroke="#F26A4B" stroke-width="3.5" stroke-linecap="round"/>
+  <text x="132" y="426" fill="#E5E9ED" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22">帮我找适合 macOS 本地运行的</text>
+  <text x="132" y="456" fill="#E5E9ED" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="22">语音转文字项目</text>
+  <text x="132" y="482" fill="#8799AA" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="16">默认只读发现 · 不克隆 · 不安装 · 不运行</text>
+
+  <rect x="48" y="546" width="704" height="326" rx="20" fill="url(#mobile-panel)" stroke="#2A4359" stroke-width="1.5"/>
+  <text x="84" y="598" fill="#F7F2E8" font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="650">一份路引，回答四件事</text>
+  <path d="M84 624h632" stroke="#2A4359" stroke-width="1.5"/>
+
+  <g font-family="PingFang SC, Noto Sans CJK SC, Microsoft YaHei, sans-serif">
+    <text x="84" y="675" fill="#F26A4B" font-size="18" font-weight="700">01</text>
+    <text x="136" y="675" fill="#E8ECEF" font-size="23" font-weight="600">现在先看什么</text>
+
+    <text x="84" y="733" fill="#F26A4B" font-size="18" font-weight="700">02</text>
+    <text x="136" y="733" fill="#E8ECEF" font-size="23" font-weight="600">证据到了哪一层</text>
+
+    <text x="84" y="791" fill="#F26A4B" font-size="18" font-weight="700">03</text>
+    <text x="136" y="791" fill="#E8ECEF" font-size="23" font-weight="600">还有哪些风险没验证</text>
+
+    <text x="84" y="849" fill="#F26A4B" font-size="18" font-weight="700">04</text>
+    <text x="136" y="849" fill="#E8ECEF" font-size="23" font-weight="600">下一步该开卷还是实测</text>
+  </g>
+</svg>
